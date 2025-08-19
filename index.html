@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">MovieStream</div>
+        <button id="menu-toggle" class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <aside id="drawer-menu" class="drawer-menu">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <section id="inicio">
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="/img/images1.jpg" alt="Stranger Things" />
+                    <div class="movie-details">
+                        <h3>Stranger Things</h3>
+                        <span class="genre">Drama, Mistério</span>
+                        <p class="description">Na pequena cidade de Hawkins, uma série de desaparecimentos misteriosos leva um grupo de jovens a investigar forças sobrenaturais.</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/img/Dmc2.jpg" alt="Devil May Cry" />
+                    <div class="movie-details">
+                        <h3>Devil May Cry</h3>
+                        <span class="genre">Ação, Aventura</span>
+                        <p class="description">Dante, um caçador de demônios, enfrenta desafios sobrenaturais enquanto busca vingança contra os que destruíram sua vida.</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="/img/Superman.jpg" alt="Superman" />
+                    <div class="movie-details">
+                        <h3>Superman</h3>
+                        <span class="genre">Ação, Ficção Científica</span>
+                        <p class="description">Clark Kent, um homem com poderes sobre-humanos, luta pela verdade e justiça enquanto lida com sua identidade secreta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
